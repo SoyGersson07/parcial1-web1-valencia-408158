@@ -1,0 +1,170 @@
+/* ====== Reset básico ====== */
+body {
+  margin: 0;
+  font-family: Arial, sans-serif;
+  background-color: #f0f2f5;
+}
+
+/* ====== Encabezado ====== */
+header {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  background-color: #4267B2;
+  color: white;
+  padding: 10px 20px;
+}
+
+.logo {
+  height: 40px;
+}
+
+.search-bar {
+  flex: 1;
+  margin: 0 20px;
+  padding: 8px;
+  border-radius: 4px;
+  border: none;
+}
+
+nav {
+  display: flex;
+  gap: 10px;
+}
+
+.nav-link {
+  background-color: white;
+  color: #4267B2;
+  border: none;
+  padding: 8px 12px;
+  border-radius: 4px;
+  cursor: pointer;
+}
+
+/* ====== Contenido principal ====== */
+main {
+  padding: 20px;
+}
+
+/* ====== Pie de página ====== */
+footer {
+  text-align: center;
+  padding: 10px;
+  background-color: #ddd;
+}
+
+/* ====== Sección de Fotos ====== */
+.photos-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fill, minmax(120px, 1fr));
+  gap: 15px;
+}
+
+.photo-item {
+  text-align: center;
+  background-color: white;
+  padding: 10px;
+  border-radius: 6px;
+  box-shadow: 0 0 5px rgba(0,0,0,0.1);
+}
+
+.photo-item img {
+  width: 100%;
+  border-radius: 4px;
+  margin-bottom: 5px;
+}
+
+/* ====== Sección de Boxes ====== */
+.boxes-layout {
+  display: grid;
+  grid-template-columns: 1fr 2fr;
+  gap: 30px;
+}
+
+.profile-sidebar {
+  background-color: white;
+  padding: 20px;
+  border-radius: 8px;
+  box-shadow: 0 0 5px rgba(0,0,0,0.1);
+  text-align: center;
+}
+
+.foto-perfil {
+  width: 100px;
+  height: 100px;
+  border-radius: 50%;
+  object-fit: cover;
+  margin-bottom: 10px;
+}
+
+.boxes-content {
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+}
+
+.box {
+  background-color: white;
+  padding: 15px;
+  border-radius: 6px;
+  box-shadow: 0 0 5px rgba(0,0,0,0.1);
+}
+
+/* ====== Sección de Muro ====== */
+.post-box {
+  background-color: white;
+  padding: 15px;
+  border-radius: 8px;
+  box-shadow: 0 0 5px rgba(0,0,0,0.1);
+  margin-bottom: 20px;
+}
+
+.post-box textarea {
+  width: 100%;
+  padding: 10px;
+  border-radius: 6px;
+  border: 1px solid #ccc;
+  resize: none;
+}
+
+.post-actions {
+  margin-top: 10px;
+  display: flex;
+  gap: 10px;
+}
+
+.post {
+  background-color: white;
+  padding: 15px;
+  border-radius: 8px;
+  box-shadow: 0 0 5px rgba(0,0,0,0.1);
+  margin-bottom: 20px;
+}
+
+.post-header {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+}
+
+.post-avatar {
+  width: 50px;
+  height: 50px;
+  border-radius: 50%;
+  object-fit: cover;
+}
+
+.post-date {
+  font-size: 0.9em;
+  color: #666;
+  margin: 0;
+}
+
+.post-content {
+  margin: 10px 0;
+}
+
+.post-buttons {
+  display: flex;
+  gap: 10px;
+}
