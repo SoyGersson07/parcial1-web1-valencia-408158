@@ -1,11 +1,10 @@
-/* ====== Reset básico ====== */
 body {
   margin: 0;
   font-family: Arial, sans-serif;
   background-color: #f0f2f5;
 }
 
-/* ====== Encabezado ====== */
+
 header {
   display: flex;
   align-items: center;
@@ -41,19 +40,19 @@ nav {
   cursor: pointer;
 }
 
-/* ====== Contenido principal ====== */
+
 main {
   padding: 20px;
 }
 
-/* ====== Pie de página ====== */
+
 footer {
   text-align: center;
   padding: 10px;
   background-color: #ddd;
 }
 
-/* ====== Sección de Fotos ====== */
+
 .photos-grid {
   display: grid;
   grid-template-columns: repeat(auto-fill, minmax(120px, 1fr));
@@ -74,7 +73,7 @@ footer {
   margin-bottom: 5px;
 }
 
-/* ====== Sección de Boxes ====== */
+
 .boxes-layout {
   display: grid;
   grid-template-columns: 1fr 2fr;
@@ -110,7 +109,7 @@ footer {
   box-shadow: 0 0 5px rgba(0,0,0,0.1);
 }
 
-/* ====== Sección de Muro ====== */
+
 .post-box {
   background-color: white;
   padding: 15px;
